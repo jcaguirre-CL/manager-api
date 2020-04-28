@@ -1,0 +1,38 @@
+
+
+> db.formdataoperaciones.find()
+{ "_id" : ObjectId("5ea7cc3d057ca5b9441e5083"), 
+"detalleEventoOperaciones" : 
+	{ 
+	"produccion" : 
+		{ "areaProduccion" : "area1", 
+		"responsableProduccion" : "firstName lastName", 
+		"pgmProduccion" : "sdasdas" }, 
+	"fechaEvento" : ISODate("2020-04-28T04:00:00Z"), 
+	"responsableEvento" : "Responsable 1", 
+	"atencionEvento" : "asdasd", 
+	"obsEvento" : "sadasd" 
+	}, 
+"incidentes" : 
+	[ 
+		{ 
+		"detalles" : [ "", "" ], 
+		"_id" : ObjectId("5ea7cc3d057ca5b9441e5085"), 
+		"area" : "1", 
+		"motivo" : "asdasd", 
+		"descripcion" : "dasdasd", 
+		"observacion" : "dasdasd", 
+		"impacto" : "sadasd" 
+		}, 
+		{ 
+		"detalles" : [ "", "" ], 
+		"_id" : ObjectId("5ea7cc3d057ca5b9441e5084"), 
+		"area" : "1", 
+		"motivo" : "asdasda", 
+		"descripcion" : "asdasd", 
+		"observacion" : "dasdasd", 
+		"impacto" : "asdasdas" 
+		} 
+	],
+ "__v" : 0 }
+

@@ -13,6 +13,7 @@ app.use(cors());
 app.use(jwt());
 
 app.use('/users', require('./users/users.controller'));
+app.use('/formdataoperaciones', require('./users/formdataOperaciones.controller'));
 
 app.use(errorHandler);
 
